@@ -10,6 +10,7 @@ class ReminderNotificationService {
   ReminderNotificationService({required this.userId}) {
     initNotifications();
     _listenToReminders();
+    
   }
 
   void initNotifications() {
